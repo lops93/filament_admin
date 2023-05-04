@@ -1,0 +1,26 @@
+[
+	{
+	  "name": "Test Super Admin",
+	  "email": "test@example.com",
+	  "photo": "images/profile_pictures/super-admin-f.png",
+	  "role": "super-admin"
+	},
+	{
+	  "name": "Test Admin",
+	  "email": "admin@example.com",
+	  "photo": "images/profile_pictures/admin-f.png",
+	  "role": "admin"
+	},
+	{
+	  "name": "Test Seller",
+	  "email": "seller@example.com",
+	  "photo": "images/profile_pictures/seller-m.png",
+	  "role": "seller"
+	},
+	{
+	  "name": "Test User",
+	  "email": "user@example.com",
+	  "photo": "images/profile_pictures/user-m.png",
+	  "role": "user"
+	}
+]
