@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
+const colors = require("tailwindcss/colors");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -7,6 +8,7 @@ module.exports = {
         './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
         './storage/framework/views/*.php',
         './resources/views/**/*.blade.php',
+        './vendor/filament/**/*.blade.php', 
     ],
 
     theme: {
@@ -24,6 +26,10 @@ module.exports = {
                 'main-active': '#1d1d40',
                 secondary: '#D6D5EF',
                 'secondary-darker': '#A980D7',
+                danger: colors.rose,
+                primary: colors.purple,
+                success: colors.green,
+                warning: colors.yellow,
             }
         },
     },
