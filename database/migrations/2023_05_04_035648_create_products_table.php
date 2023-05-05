@@ -15,6 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->text('description')->nullable();
+            $table->unsignedInteger('quantity')->default(0);
+            $table->decimal('price', 8, 2)->default(0.00);
+            $table->string('product_image');
             $table->unsignedTinyInteger('status')->default(1);
             $table->unsignedBigInteger('category_id');
             $table->unsignedBigInteger('store_id');

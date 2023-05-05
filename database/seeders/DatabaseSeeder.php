@@ -17,22 +17,9 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         $this->call(RoleAndPermissionSeeder::class);
+        $this->call(UserSeeder::class);
+        $this->call(StoreSeeder::class);
         // \App\Models\User::factory(10)->create();
-        $users_json = file_get_contents(__DIR__.'/includes/users.json');
 
-        $users = json_decode($users_json);
-
-        foreach ($users as $user) {
-            $profilePicture= Storage::putFile('public/images/profile_pictures', public_path($user->photo));
-
-            // Remove the 'public' prefix from the path
-            $profilePicture = str_replace('public/', '', $profilePicture);
-            User::create([
-                'name' => $user->name,
-                'email' => $user->email,
-                'profile_picture' => $profilePicture,
-                'password' => Hash::make('Filament123')
-            ])->assignRole($user->role);
-        }    
     }
 }

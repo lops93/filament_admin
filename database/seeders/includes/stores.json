@@ -1,0 +1,32 @@
+[
+	{
+	  "name": "Candy Store",
+	  "description": "Welcome to our candy store, where all your sweet dreams come true! We offer a wide variety of delicious candies from classic favorites to unique and exciting flavors. Our candy selection includes everything from gummies, chocolates, hard candies, lollipops, toffees, and more.",
+	  "store_logo": "images/stores/building_candy_okashiya.png",
+	  "status": 1
+	},
+	{
+	  "name": "Book Collection",
+	  "description": "Book Collection is a haven for book lovers, offering a vast array of books on a wide range of topics. The store is designed to create a cozy and welcoming atmosphere where customers can browse and explore the shelves at their leisure.",
+	  "store_logo": "images/stores/tatemono_honya.png",
+	  "status": 1
+	},
+	{
+	  "name": "Style Society",
+	  "description": "Style Society is a fashion-forward clothing store that caters to both men and women. Our store offers a carefully curated selection of trendy and stylish clothing items, from casual wear to formal attire, to help our customers look and feel their best.",
+	  "store_logo": "images/stores/tatemono_dress_shop.png",
+	  "status": 1
+	},
+	{
+	  "name": "Kawaii Kingdom",
+	  "description": "Kawaii Kingdom is a store that brings the world of cute and adorable Japanese culture to life. The store is a one-stop-shop for all anime lovers and fans of the Kawaii culture. From plushies to figures, clothing, accessories, and more, Kawaii Kingdom has everything you need to express your love for all things cute and stylish.",
+	  "store_logo": "images/stores/building_anime_shop.png",
+	  "status": 1
+	},
+	{
+	  "name": "Pet Shop",
+	  "description": "A pet store named Pet Shop is a one-stop-shop for all your furry friend's needs. From food and toys to grooming and veterinary services, we've got you covered. Our staff is knowledgeable and passionate about pets and will provide personalized recommendations for your pet's specific needs.",
+	  "store_logo": "images/stores/building_petshop.png",
+	  "status": 1
+	}
+  ]

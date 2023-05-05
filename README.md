@@ -7,7 +7,15 @@ My project is a product management system developed using PHP language and Larav
 
 ## installation
 
-coming soon
+* clone the project
+* create .env file (change the APP_URL and configure database)
+* composer install
+* npm install
+* php artisan migrate --seed
+* php artisan storage:link
+* php artisan key:generate
+* php artisan serve
+* npm run dev
 
 ## Many thanks
 <p align="center"><img src="public/images/profile_pictures/super-admin-f.png" width="100"></p>
