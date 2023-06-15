@@ -29,7 +29,7 @@
             @livewire('filament.core.global-search')
 
             @livewire('filament.core.notifications')
-            
+            <x-filament::layouts.app.topbar.switch-mode/>
             <x-filament::layouts.app.topbar.user-menu />
         </div>
     </div>
