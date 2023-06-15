@@ -13,11 +13,11 @@
 }
 
 .filament-sidebar-nav {
-    @apply bg-primary-800 bg-gradient-to-tl from-main-lighter to-main-darker dark:bg-gray-800 dark:border-gray-700 dark:from-gray-800 dark:to-gray-800;
+    @apply bg-primary-800 bg-gradient-to-tl from-main-lighter to-main-darker dark:bg-gray-800 dark:border-gray-700 dark:from-main-darker dark:to-main-darker;
 }
 
 .filament-sidebar-header, .filament-main-topbar {
-    @apply border-none bg-main dark:bg-gray-800;
+    @apply border-none bg-main dark:bg-main-lighter;
 }
  
 .filament-sidebar-item {
@@ -41,9 +41,9 @@
 }
  
 .filament-main {
-    @apply bg-primary-50 dark:bg-gray-900 dark:border-gray-700;
+    @apply bg-indigo-100 dark:bg-main-darker dark:border-gray-700;
 }
  
 .filament-main-content {
-    @apply text-gray-600 dark:text-gray-400;
+    @apply text-main-darker dark:text-indigo-100;
 }

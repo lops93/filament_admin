@@ -1,5 +1,9 @@
-<p align="center"><img src="public/images/filament_admin_logo.png" width="400"></p>
-
+<p align="center">
+    <picture>
+        <source srcset="public/images/filament_admin_logo.png" media="(prefers-color-scheme: dark)">
+        <img src="public/images/filament_admin_logo_dark.png" width="400" alt="Filament Admin">
+    </picture>
+</p>
 
 ## About the project
 

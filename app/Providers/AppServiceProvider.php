@@ -27,5 +27,11 @@ class AppServiceProvider extends ServiceProvider
                 app(Vite::class)('resources/css/app.css'),
             );
         });
+
+        Filament::registerNavigationGroups([
+            'Catalog',
+            'Users',
+            'Security',
+        ]);
     }
 }
